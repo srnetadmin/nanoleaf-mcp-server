@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for controlling Nanoleaf smart lights. This server provides tools to control your Nanoleaf devices through Warp terminal or any MCP-compatible client.
 
+<a href="https://glama.ai/mcp/servers/@srnetadmin/nanoleaf-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@srnetadmin/nanoleaf-mcp-server/badge" alt="Nanoleaf Server MCP server" />
+</a>
+
 ## Features
 
 - 🔍 **Auto-discovery** of Nanoleaf devices on your network
