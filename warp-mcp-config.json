@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "nanoleaf": {
+      "command": "docker",
+      "args": [
+        "run", "--rm", "-i", "--network=host",
+        "-e", "NANOLEAF_IP=192.168.4.121",
+        "-e", "NANOLEAF_AUTH_TOKEN=KGp2C4ogJT0Zpjy9ghRyA0cW3wyZOXK0",
+        "-e", "NANOLEAF_PORT=16021",
+        "-e", "NANOLEAF_PROTOCOL=http",
+        "nanoleaf-mcp-server-nanoleaf-mcp-server"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+services:
+  nanoleaf-mcp-server:
+    build: .
+    container_name: nanoleaf-mcp-server
+    environment:
+      - NODE_ENV=production
+      - NANOLEAF_IP=${NANOLEAF_IP:-}
+      - NANOLEAF_AUTH_TOKEN=${NANOLEAF_AUTH_TOKEN:-}
+      - NANOLEAF_PORT=${NANOLEAF_PORT:-16021}
+      - NANOLEAF_PROTOCOL=${NANOLEAF_PROTOCOL:-http}
+    restart: unless-stopped
+    # Network mode host is needed for SSDP discovery to work properly
+    network_mode: host
