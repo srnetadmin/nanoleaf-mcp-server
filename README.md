@@ -14,6 +14,7 @@ A Model Context Protocol (MCP) server for controlling Nanoleaf smart lights. Thi
 - 💡 **Full control** of lights, brightness, colors, and effects
 - 🐳 **Dockerized** for easy deployment
 - 🖥️ **Warp terminal integration**
+- 🔒 **Security-audited** dependencies with regular vulnerability checks
 
 ## Available Tools
 
@@ -287,6 +288,12 @@ Tested with:
 - Nanoleaf Hexagons
 
 Should work with most Nanoleaf devices that support the v1 API.
+
+## Documentation
+
+- **[Dependency Audit Report](DEPENDENCY_AUDIT.md)** - Detailed security audit and dependency update information
+- **Setup Scripts** - Automated setup and testing scripts included
+- **Docker Configuration** - Containerized deployment for easy management
 
 ## Contributing
 
